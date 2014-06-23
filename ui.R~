@@ -15,7 +15,7 @@ shinyUI(navbarPage(textOutput("title"),
            dataTableOutput('sumtable1'),
            hr()),
   tabPanel(textOutput("about"), 
-           includeMarkdown("README.md")),
+           includeMarkdown("readme_eng.md")),
       fluidRow(
         column(3,
                h4("How to use"),
